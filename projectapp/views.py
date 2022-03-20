@@ -44,3 +44,4 @@ class ProjectDetailView(DetailView, MultipleObjectMixin):
         return super(ProjectDetailView, self).get_context_data(object_list=object_list,
                                                                subscription = subscription,
                                                                **kwargs)
+
